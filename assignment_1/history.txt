@@ -1,0 +1,167 @@
+    1  mkdir
+    2  cd /mnt/scratch-luster/ateixeira
+    3  mkdir test
+    4  cd test
+    5  ls
+    6  pwd
+    7  cd ..
+    8  git clone https://github.com/CITA/CTA200H.git
+    9  pwd
+   10  ls
+   11  cd ./CTA200H
+   12  cd ..
+   13  git remote set-url origin https://github.com/teix164/CTA200H.git
+   14  cd ./CTA200H
+   15  git remote set-url origin https://github.com/teix164/CTA200H.git
+   16  touch fileread.cpp
+   17  ls
+   18  git commit -m "Fixed bug in file read for large files"
+   19  git add fileread.cpp
+   20  git commit -m "Fixed bug in file read for large files"
+   21  git push
+   22  cd test
+   23  ls
+   24  pwp
+   25  cd ..
+   26  pwp
+   27  pwd
+   28  cd test
+   29  pwd
+   30  cd /mnt/scratch-luster/ateixeira
+   31  cosmo3
+   32  ssh cosmo3
+   33  cosmo3
+   34  ssh cosmo3
+   35  mkdir
+   36  mkdir test
+   37  cd test
+   38  cd /mnt/scratch-luster/ateixeira
+   39  ssh cosmo3
+   40  ssh cosmo8
+   41  cd /mtn/scratch-luster/ateixeira
+   42  cd ~
+   43  cd ..
+   44  cd ~
+   45  mkdir CTA200_2026
+   46  cd CTA200_2026
+   47  mkdir assignment_1
+   48  cd assignment_1
+   49  touch README.md
+   50  ls
+   51  vi README.md
+   52  ls
+   53  cd ..
+   54  git init
+   55  add README.me
+   56  git add README.me
+   57  git add assignment_1/README.me
+   58  ls
+   59  git status
+   60  cd assignment_1
+   61  ls
+   62  cd ..
+   63  git add assignment_1/README.md
+   64  git commit -m "pushed README"
+   65  git remote add origin https://github.com/teix164/CTA200_2026.git
+   66  git push
+   67  git remote add origin https://github.com/teix164/CTA200_2026.git
+   68  git branch -M main
+   69  git push -u origin main
+   70  cosmo8
+   71  ssh cosmo8
+   72  ssh -L 1642:localhost:1642 ateixeira@gw.cita.utoronto.ca
+   73  cosmo8
+   74  ssh cosmo8
+   75  ssh -L 1642:localhost:1642 cosmo8
+   76  module load python/3.10.2
+   77  jupyter notebook --port=1642 --no-browser
+   78  cosmo8
+   79  ssh cosmo8
+   80  module load python/3.10.2
+   81  jupyter notebook --port=1642 --no-browser
+   82  ssh -L 1642:localhost:1642 cosmo8
+   83  module load python/3.10.2
+   84  jupyter notebook --port=1642 --no-browser
+   85  ssh cosmo8
+   86  module load python/3.10.2
+   87  jupyter notebook --port=1642 --no-browser
+   88  module load python/3.10.2
+   89  jupyter notebook --port=1642 --no-browser
+   90  cosmo8
+   91  ssh cosmo8
+   92  cosmo8
+   93  ssh cosmo8
+   94  module load python/3.10.2
+   95  jupyter notebook --port=1642 --no-browser
+   96  ssh cosmo8
+   97  module load python/3.10.2
+   98  jupyter notebook --port=1642 --no-browser
+   99  ssh -L 1642:localhost:1642 cosmo8
+  100  module load python/3.10.2
+  101  jupyter notebook --port=1642 --no-browser
+  102  module load python/3.10.2
+  103  jupyter notebook --port=1642 --no-browser
+  104  ssh -L 1642:localhost:1642 cosmo8
+  105  cosmo8
+  106  ssh cosmo8
+  107  /fs/lustre/scratch/murray
+  108  cd /fs/lustre/scratch/murray
+  109  find -name "Hello_world.c"
+  110  find /fs/lustre/scratch/murray/ -name "Hello_world.c"
+  111  find home/murray/ -name "Hello_world.c"
+  112  cd ..
+  113  find home/murray/ -name "Hello_world.c"
+  114  cd ..
+  115  find home/murray/ -name "Hello_world.c"
+  116  cd ..
+  117  find home/murray/ -name "Hello_world.c"
+  118  cd fs
+  119  cd /fs/lustre/scratch/USERNAME
+  120  cd /fs/lustre/scratch/murray
+  121  cd ~
+  122  module load python/3.10.2
+  123  find 
+  124  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  125  cp /home/murray/tmp/Hello_world.py /assignment_1
+  126  cp /home/murray/tmp/Hello_world.py ~/CTA200_2026/assignment_1
+  127  cp /home/murray/Paper/tmp/Hello_world.c ~/CTA200_2026/assignment_1
+  128  cp /home/murray/Papers/tmp/Hello_world.c ~/CTA200_2026/assignment_1
+  129  cd CTA200_2026
+  130  cd assignment_1
+  131  ls
+  132  mv Hello_world.c Hello_world_teixeira.c
+  133  mv Hello_world.py Hello_world_teixeira.py
+  134  ls
+  135  module load gcc
+  136  gcc
+  137  gcc Hello_world_teixeira.c -o Hello_world.x
+  138  ls
+  139  ./Hello_world_teixeira.c
+  140  ./Hello_world_teixeira
+  141  ./Hello_world
+  142  ././Hello_world.x
+  143  python Hello_world_teixeira.py
+  144* vi Hello_worl
+  145  vi Hello_world_teixeira.c
+  146* vi Hello_world_teixeira.
+  147  vi Hello_world_teixeira.c
+  148  ls -la
+  149  rm -rf .Hello_world_teixeira.c.swp 
+  150  ls
+  151  vi Hello_world_teixeira.c
+  152  ./Hello_world.x
+  153  ./Hello_world
+  154  python Hello_world_teixeira.py
+  155  gcc gcc Hello_world_teixeira.c -o Hello_world.x
+  156  module load gcc
+  157  gcc Hello_world_teixeira.c -o Hello_world.x
+  158  ./Hello_world
+  159  ./Hello_world.x
+  160  ./Hello_world.x > output_c.txt
+  161  python Hello_world_teixeira > output_python.txt
+  162  ls
+  163  python Hello_worldpython Hello_world_teixeira.py
+  164  python Hello_world_teixeira.py
+  165  python Hello_world_teixeira.py > output_python.txt
+  166  ls
+  167  history > history.txt
